@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
- <link rel="stylesheet" href="./output.css"> 
-  <title>Frontend Mentor | Social links profile</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Frontend Mentor | Social links profile</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body class="container">
-
-  <div class="font-inter">
-
-    London, United Kingdom
-    Jessica Randall
-    "Front-end developer and avid reader."
-    
-  </div>
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/Allials" target="_blank">Andrew Vasquez</a>.
-  </div>
-</body>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-offBlack flex items-center justify-center min-h-screen flex-col font-inter ">
+    <div class=" container bg-darkGrey pb-6 rounded-2xl xs:max-w-screen-xs md:maxwscre ">
+        <div class="mt-2 mb-4">
+          <img
+            class="rounded-full xs:size-24 block mx-auto my-5"
+            src="/Social_Links_Profile/assets/images/avatar-jessica.jpeg"
+            alt=""
+          />
+          <h1 class="text-center text-white font-bold text-2xl">
+            Jessica Randall
+          </h1>
+          <p class="text-neonGreen font-normal text-center text-sm block pt-1">London, United Kingdom</p>
+        </div>
+        <p class="text-white text-center pb-7">
+          "Front-end developer and avid reader."
+        </p> 
+        <div class="flex flex-col text-center text-white text-sm font-semibold space-y-5 size-full ">
+        <a class="bg-styleGrey hover:bg-neonGreen ease-in-out duration-300 rounded-md py-3 self-center w-4/5 " href="#">GitHub</a>
+        <a class="bg-styleGrey hover:bg-neonGreen ease-in-out duration-300 rounded-md py-3 self-center w-4/5 " href="#">Frontend Mentor</a>
+        <a class="bg-styleGrey hover:bg-neonGreen ease-in-out duration-300 rounded-md py-3 self-center w-4/5" href="#">LinkedIn</a>
+        <a class="bg-styleGrey hover:bg-neonGreen ease-in-out duration-300 rounded-md py-3 self-center w-4/5" href="#">Twitter</a>
+        <a class="bg-styleGrey hover:bg-neonGreen ease-in-out duration-300 rounded-md py-3 self-center w-4/5" href="#">Instagram</a>
+      </div>
+    </div>
+    <div class="attribution xs:pt-4 md:pt-6">
+      <p class="text-white">Challenge by</p>
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. 
+      <p class="text-white">Coded by</p>
+      <a href="https://github.com/Allials" target="_blank">Andrew Vasquez</a>.
+    </div>
+  </body>
 </html>
